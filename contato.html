@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Rudy Nail Designer</title>
+    <meta name="description" content="Entre em contato com a Rudy Nail Designer - Rudyeli dos Santos">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html" style="display:flex; align-items:center; text-decoration:none;">
+                        <img src="icones/icon_64x64.png" alt="Logo Rudy Nail Designer" class="logo-img" width="70" height="70" style="margin-right:16px;">
+                        <span style="display:flex; flex-direction:column; justify-content:center;">
+                            <span style="font-size:2rem; font-weight:bold; color:#8B4513; line-height:1;">Rudy Nail Designer</span>
+                            <span style="font-size:1.1rem; color:#8B4513; line-height:1;">Rudyeli dos Santos</span>
+                        </span>
+                    </a>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+                    <li><a href="servicos.html" class="nav-link">Serviços</a></li>
+                    <li><a href="cuidados.html" class="nav-link">Cuidados</a></li>
+                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="contato.html" class="nav-link active">Contato</a></li>
+                </ul>
+                
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Entre em Contato</h1>
+            <p>Agende seu horário ou tire suas dúvidas comigo</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Vamos Conversar?</h2>
+                    <p>Estou aqui para atender você da melhor forma possível. Entre em contato através dos canais abaixo ou preencha o formulário ao lado.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>WhatsApp</h3>
+                                <p>(51) 99769-6100</p>
+                                <a href="https://wa.me/5551997696100" target="_blank" class="method-link">Enviar Mensagem</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>Telefone</h3>
+                                <p>(51) 99769-6100</p>
+                                <a href="tel:+5551997696100" class="method-link">Ligar Agora</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>E-mail</h3>
+                                <p>contato@rudynaildesigner.com</p>
+                                <a href="mailto:contato@rudynaildesigner.com" class="method-link">Enviar E-mail</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>Instagram</h3>
+                                <p>@RudyNailDesigner</p>
+                                <a href="#" target="_blank" class="method-link">Seguir no Instagram</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="location-info">
+                        <h3><i class="fas fa-map-marker-alt"></i> Localização</h3>
+                        <p>Atendimento em Santa Cruz do Sul, RS<br>
+                        Região: Zona Sul<br>
+                        <em>Endereço exato fornecido no agendamento</em></p>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Formulário de Contato</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Telefone *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Serviço de Interesse</label>
+                            <select id="service" name="service">
+                                <option value="">Selecione um serviço</option>
+                                <option value="nail-art">Nail Art</option>
+                                <option value="manicure">Manicure</option>
+                                <option value="pedicure">Pedicure</option>
+                                <option value="alongamento">Alongamento</option>
+                                <option value="tratamento">Tratamento</option>
+                                <option value="pacote">Pacote Especial</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Data Preferida</label>
+                                <input type="date" id="date" name="date">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="time">Horário Preferido</label>
+                                <select id="time" name="time">
+                                    <option value="">Selecione um horário</option>
+                                    <option value="09:00">09:00</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="17:00">17:00</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Conte-me mais sobre o que você deseja, suas preferências, ou tire suas dúvidas..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule-section">
+        <div class="container">
+            <h2 class="section-title">Horário de Funcionamento</h2>
+            
+            <div class="schedule-grid">
+                <div class="schedule-day">
+                    <div class="day-name">Segunda-feira</div>
+                    <div class="day-hours">09:00 - 18:00</div>
+                </div>
+                
+                <div class="schedule-day">
+                    <div class="day-name">Terça-feira</div>
+                    <div class="day-hours">09:00 - 18:00</div>
+                </div>
+                
+                <div class="schedule-day">
+                    <div class="day-name">Quarta-feira</div>
+                    <div class="day-hours">09:00 - 18:00</div>
+                </div>
+                
+                <div class="schedule-day">
+                    <div class="day-name">Quinta-feira</div>
+                    <div class="day-hours">09:00 - 18:00</div>
+                </div>
+                
+                <div class="schedule-day">
+                    <div class="day-name">Sexta-feira</div>
+                    <div class="day-hours">09:00 - 18:00</div>
+                </div>
+                
+                <div class="schedule-day">
+                    <div class="day-name">Sábado</div>
+                    <div class="day-hours">09:00 - 16:00</div>
+                </div>
+                
+                <div class="schedule-day closed">
+                    <div class="day-name">Domingo</div>
+                    <div class="day-hours">Fechado</div>
+                </div>
+            </div>
+            
+            <div class="schedule-notes">
+                <h3>Informações Importantes:</h3>
+                <ul>
+                    <li>Agendamentos devem ser feitos com antecedência mínima de 24 horas</li>
+                    <li>Cancelamentos devem ser comunicados com pelo menos 4 horas de antecedência</li>
+                    <li>Atendimento domiciliar disponível mediante consulta</li>
+                    <li>Horários especiais podem ser negociados para eventos</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como faço para agendar um horário?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Você pode agendar através do WhatsApp, telefone ou preenchendo o formulário desta página. Recomendo o WhatsApp para um atendimento mais rápido e prático.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Qual é a antecedência necessária para agendamento?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Recomendo agendar com pelo menos 24 horas de antecedência. Para serviços mais elaborados ou fins de semana, é melhor agendar com alguns dias de antecedência.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Vocês atendem em domicílio?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                        <div class="faq-answer">No momento, não ofereço atendimento domiciliar. Todos os atendimentos são realizados no estúdio.
+                        <p></p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quais formas de pagamento são aceitas?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Aceito dinheiro, PIX, cartão de débito e crédito (até 3x sem juros). Para pacotes, também ofereço condições especiais de parcelamento.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Posso levar meu próprio esmalte?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Claro! Você pode trazer seu esmalte favorito. Trabalho com produtos de alta qualidade, mas respeito suas preferências pessoais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Rudy Nail Designer</h3>
+                    <p>Transformando unhas em obras de arte com profissionalismo e carinho.</p>
+                    <div class="social-links">
+                        <a href="--instagram-url" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="--facebook-url" class="social-link" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="--whatsapp-url" class="social-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="portfolio.html">Portfólio</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="cuidados.html">Cuidados</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> (51) 99769-6100</p>
+                        <p><i class="fas fa-envelope"></i> contato@rudynaildesigner.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Santa Cruz do Sul, RS</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Horário de Funcionamento</h4>
+                    <div class="schedule">
+                        <p>Segunda a Sexta: 9h às 18h</p>
+                        <p>Sábado: 9h às 16h</p>
+                        <p>Domingo: Fechado</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Rudy Nail Designer - Rudyeli dos Santos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        function getCssVar(name) {
+            // Remove aspas se existirem
+            return getComputedStyle(document.documentElement).getPropertyValue(name).replace(/^["']|["']$/g, '').trim();
+        }
+        const socialMap = {
+            'instagram': '--instagram-url',
+            'facebook': '--facebook-url',
+            'whatsapp': '--whatsapp-url'
+        };
+        Object.entries(socialMap).forEach(([network, cssVar]) => {
+            document.querySelectorAll(`.social-link[href*="${cssVar}"]`).forEach(link => {
+                link.setAttribute('href', getCssVar(cssVar));
+            });
+        });
+    });
+    </script>
+</body>
+</html>
