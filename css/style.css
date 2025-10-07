@@ -8,7 +8,20 @@
 :root {
     /* Cores */
 
+    --light-nude:      #F6DEE4;
+    --nude:            #ebbfbf;
+    --dark-nude:       #e5acac;
+    --dark-dark-nude:  #d37272;
 
+    --light-brown:     #b18961;
+    --brown:           #A67C52;
+    --dark-brown:      #956f4a;
+    --dark-dark-brown: #402C22;
+
+    --light-beige:     #F4F1E8;
+    --beige:           #ece7d7;
+    --dark-beige:      #e4dcc6;
+    --dark-dark-beige: #cbbc92;
 
     /* ...existing code... */
 
