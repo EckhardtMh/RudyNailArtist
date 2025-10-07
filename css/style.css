@@ -2251,3 +2251,40 @@ html {
     background: var(--light-brown);
     color: var(--white);
 }
+
+
+
+/* Garante a exibição correta dos ícones Font Awesome */
+.fa, .fas, .far, .fab {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Font Awesome 6 Regular", "FontAwesome";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.5em;
+  color: #402C22;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Botões visíveis */
+.btn, .btn-primary, .btn-secondary, .btn-outline {
+  display: inline-block;
+  color: #fff;
+  background: var(--gradient-primary, #A67C52);
+  border: none;
+  padding: 0.75em 2em;
+  font-size: 1.1em;
+  border-radius: 2em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-outline {
+  background: none;
+  color: #402C22;
+  border: 2px solid #402C22;
+}
+
+.btn:hover, .btn-primary:hover, .btn-secondary:hover, .btn-outline:hover {
+  opacity: 0.9;
+}
